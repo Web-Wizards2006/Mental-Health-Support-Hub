@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Support Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mental Health Support Hub</h1>
+    </header>
+
+    <section class="chatbot">
+        <h2>AI Chatbot for Mental Wellness</h2>
+        <div id="chatbox">
+            <p><strong>Bot:</strong> Hello! How are you feeling today?</p>
+        </div>
+        <input type="text" id="userInput" placeholder="Type a message...">
+        <button onclick="sendMessage()">Send</button>
+    </section>
+
+    <section class="chatroom">
+        <h2>Anonymous Chatroom</h2>
+        <div id="chatroom-messages"></div>
+        <input type="text" id="chatroom-input" placeholder="Say something...">
+        <button onclick="sendChatroomMessage()">Send</button>
+    </section>
+
+    <section class="appointments">
+        <h2>Book a Therapy Appointment</h2>
+        <form id="appointment-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="datetime-local" id="datetime" required>
+            <button type="submit">Book Appointment</button>
+        </form>
+        <p id="booking-status"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
