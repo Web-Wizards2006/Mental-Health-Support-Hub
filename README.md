@@ -13,6 +13,7 @@ The purpose of this project is to create a comprehensive and supportive platform
 - HTML
 - CSS
 - JavaScript
+- Java
 
 ## Usage
 Simply open the `index.html` file in your browser, and you will see the Mental Health Support Hub interface. Users can browse through resources, take self-assessment quizzes, and find contact information for mental health support.
